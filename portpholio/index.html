@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&
+    display=swap" rel="stylesheet">
+    <title>Brijesh - Kumar</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: -3px;
+        }
+
+        body {
+            background-color: rgb(0, 0, 34);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 52px;
+            background-color: rgb(45, 0, 87);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: black;
+            font-size: 1.0 rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+        .leftSection .buttons
+        {
+            padding:50px 0;
+        }
+        
+        .leftSection .btn {
+            padding:12px;
+            background-color: #1e2167;
+            color:white;
+            border:2px solid white;
+            border-radius:6px;
+            font-size:20px;
+            cursor :pointer;
+
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: aqua;
+        }
+
+        .text-gray {
+            color: rgb(151, 132, 132);
+        }
+
+        #element {
+            color: #9c97f1;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 81vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: -1px 125px;
+
+
+        }
+
+        .image-top {
+            width: 47px;
+            position: relative;
+            top: -40px;
+            left: -22px;
+        }
+
+        .vertical-title {
+            position: relative;
+            text-align: left;
+            top: 60px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(0, 0, 34);;
+
+        }
+
+        .footer {
+            display: flex;
+            margin: auto;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            background-color: gray;
+            padding:12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Brijesh kumar</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home </a></li>
+                    <li><a href="/">About </a></li>
+                    <li><a href="/">Services </a></li>
+                    <li><a href="/">Projects </a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is <span class="purple">Brijesh</span>
+
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="bottons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn"> visit Githhub</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <!-- this is the first div box -->
+                <div class="vertical">
+                    <img class="image-top" src="bg2.bmp" alt="">
+                    <div class="vertical-title"> Web Developer (2020-2024)</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsam earum ex tenetur accusamus
+                        voluptatum, architecto omnis ipsum fuga fugit excepturi temporibus ipsa.
+                    </div>
+                </div>
+                <!-- this is the second div box -->
+                <div class="vertical">
+                    <img class="image-top" src="instagram.bmp" alt="">
+                    <div class="vertical-title">Instagram Developer(2021-2024)</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eligendi quis nisi, vel,
+                        labore in enim quam tenetur eveniet asperiores, eum eius iusto?
+                    </div>
+                </div>
+                <!-- this is the third div box -->
+                <div class="vertical">
+                    <img class="image-top" src="html2.bmp" alt="">
+                    <div class="vertical-title">
+                        Html Developer (2020-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eligendi quis nisi, vel,
+                        labore in enim quam tenetur eveniet asperiores, eum eius iusto?
+                    </div>
+                </div>
+                <!-- this is the forth div box -->
+                <div class="vertical">
+                    <img class="image-top" src="linkdin.bmp" alt="">
+                    <div class="vertical-title"> Linkdin Developer (2016-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eligendi quis nisi, vel,
+                        labore in enim quam tenetur eveniet asperiores, eum eius iusto?
+                    </div>
+                </div>
+                <!-- this the fifth dev box -->
+                <div class="vertical">
+                    <img class="image-top" src="google.bmp" alt="">
+                    <div class="vertical-title"> GoogleDeveloper (2020-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eligendi quis nisi, vel,
+                        labore in enim quam tenetur eveniet asperiores, eum eius iusto?
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Brijesh portfolio</h3>
+            </div>
+            <div class="footer-Second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-Third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-Fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;brijesh's portpholio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Cyber Security', 'Vella Aadmi'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
