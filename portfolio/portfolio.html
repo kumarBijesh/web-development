@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgba(76, 4, 199, 0.594);
+            color: white;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth; /* Enables smooth scrolling */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 52px;
+            background-color: rgb(58, 5, 132);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            font-weight: bold;
+            color: brown;
+        }
+
+        main hr {
+            width: 96%;
+            border: 1px solid #ccc;
+            margin: auto;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+        }
+
+        .firstSection > div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .rightSection img {
+            width: 80%;
+            height: auto;
+        }
+
+        footer {
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+            padding: 40px;
+            background-color: rgb(58, 5, 132);
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="left">Brijesh Kumar</div>
+        <div class="right">
+            <ul>
+                <!-- Links to respective sections -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- Anchor for Home section -->
+    <a id="home"></a>
+    <section class="firstSection">
+        <div class="leftSection">Hi, my name is <span class="purple">Brijesh</span>
+            <div>and I am a passionate</div>
+            <span id="element"></span>
+            <div class="buttons">
+                <a href="https://drive.google.com/file/d/1qIXJm6hKru8Z-oj2gNuZLROEBM8j5ju9/view?usp=drive_link" target="_blank" class="btn">Download Resume</a>
+                <a href="https://github.com/kumarBijesh/web-development" target="_blank" class="btn">Visit GitHub</a>
+                <a href="https://www.linkedin.com/in/bijesh-kumar-50336a28b" target="_blank" class="btn">Visit LinkedIn</a>
+                <a href="#about" class="btn">About Me</a>
+            </div>
+        </div>
+        <div class="rightSection">
+            <img src="myimage.jpg" alt="My Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" style="padding: 20px; text-align: center;">
+        <h2>About Me</h2>
+        <p>Hi, My name is bijesh kumar.Currently i am pursuing MCA in lovely Professional University.</p>
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Brijesh Portfolio</h3>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; Brijesh's Portfolio | All rights reserved
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Cyber Security', 'Cloud Computing', 'Web Development', 'Gamer', 'Start Coding', 'Music Lover', 'Add Something Later'],
+        typeSpeed: 55,
+    });
+</script>
+
+</body>
+
+</html>
